@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GoogleVoicemail</fullName>
+    <description>Invocable Apex method and sample process to parse an incoming Google Voicemail message in an email-to-case scenario.</description>
+    <types>
+        <members>GoogleVoicemailProcessor</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Sample_Google_Voice_Process</members>
+        <name>Flow</name>
+    </types>
+    <version>44.0</version>
+</Package>
