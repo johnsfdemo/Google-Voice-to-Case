@@ -47,14 +47,14 @@ global without sharing class GoogleVoicemailProcessor {
                 cleanUpVoiceMail(theCase);
                 try {
                     update theCase;
-                    result.status = 'SUCCESS';
+                    result.status = SUCCESS;
                 } catch (DMLException e) {
-                    result.status = 'FAILURE';
+                    result.status = FAILURE;
                     result.message = 'Could not update case ' + theCase.Id + ' after parsing Google voice mail: ' + e.getMessage();
                     System.debug(result.message);
                 }
             } else {																			// Sometimes other messages like 'New missed call from' show up
-                result.status = 'FAILURE';
+                result.status = FAILURE;
                 result.message = 'Not a valid Google Voice message: could not find "New voicemail from" in email subject line.';
                 System.debug(result.message);
             }
