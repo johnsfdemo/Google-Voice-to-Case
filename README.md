@@ -7,7 +7,7 @@ This package contains an invocable Apex class and a sample Salesforce Process Bu
 
 ### Step 1
 
-[set up a free Google Voice account](https://support.google.com/voice/answer/7207482?hl=en&ref_topic=1707989). You will also get a Gmail address related to this account. Make a note of this Gmail address as you will be using it in your Salesforce email-to-case setup.
+[Set up a free Google Voice account](https://support.google.com/voice/answer/7207482?hl=en&ref_topic=1707989). You will also get a Gmail address related to this account. Make a note of this Gmail address as you will be using it in your Salesforce email-to-case setup.
 
 ### Step 2
 
@@ -41,7 +41,7 @@ If you are using `Process Google Voicemail` in a screen flow, you can check the 
 
 ### Step 6
 
-Add the Google Voice number from **Step 1** to your mobile phone's address book and dress it up for the demo by adding a logo and using the name of your customer as the contact. Then, go into your Salesforce org and select the record of the contact you wish to use as the initiator of the case in your demo. Add your own mobile phone number to any of the standard phone fields (`Phone`, `MobilePhone`, `HomePhone`, or `OtherPhone`). Make sure you enter your mobile phone number in the form `(###) ###-####` or this package will not find it.
+Add the Google Voice number from **Step 1** to your mobile phone's address book and dress it up for the demo by adding a logo and using the name of your customer as the contact. Then, go into your Salesforce org and select the record of the contact you wish to use as the initiator of the case in your demo. Add your own mobile phone number to any of the standard phone fields (`Phone`, `MobilePhone`, `HomePhone`, or `OtherPhone`). Make sure you enter your mobile phone number in the form `(###) ###-####`, *including the parentheses, space, and dash exactly as shown*, or this package will not find it.
 
 
 ## How to Deploy This Package to Your Org

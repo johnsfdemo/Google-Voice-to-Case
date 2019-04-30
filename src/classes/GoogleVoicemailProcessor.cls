@@ -18,7 +18,7 @@ global without sharing class GoogleVoicemailProcessor {
     
     global class Requests {
         @InvocableVariable
-        global Id caseId;				// The record ID of the case
+        global Id caseId;					// The record ID of the case
     }
     
     global class Results {
@@ -69,7 +69,7 @@ global without sharing class GoogleVoicemailProcessor {
     
     private static void cleanUpVoiceMail (Case theCase) {
         theCase.Subject = theCase.Subject.replace('New voicemail', 'New case');					// Change 'New voicemail' to 'New case'        
-        String description = theCase.Description.remove('<https://voice.google.com>');				// Delete first line
+        String description = theCase.Description.remove('<https://voice.google.com>');			// Delete first line
         description = description.left(description.indexOf('play message'));					// Delete 'play message' and following text        
         description = description.replace('\r\n', ' ').replace('\r', ' ').replace('\n', ' ');	// Clean up newlines and extraneous junk
         description = description.replace(',,', ',');
