@@ -25,7 +25,7 @@ Go back to your `voice.google.com` page and click the Settings (gear) icon in th
 
 Then select the **Do not disturb** option. This will automatically make any voice call go directly to voicemail:
 
-![Do Not Disturb](/images/Do_Not_Dirturb.png)
+![Do Not Disturb](/images/Do_Not_Disturb.png)
 
 ### Step 4
 
