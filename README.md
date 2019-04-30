@@ -46,7 +46,7 @@ Add the Google Voice number from **Step 1** to your mobile phone's address book 
 
 ## How to Demo
 
-In a demo, I usually show my mobile phone's screen using Quicktime or [Reflector](https://www.airsquirrels.com/reflector/features/mac-and-windows) from my laptop. Simply call the Google Voice number from your mobile phone and leave a message, being sure to speak clearly. In a few moments, you should have a new case that contains "New case from *contact*" as the `Subject` and the transcription of your voice mail message in the `Description` field. You can also look at the records Activities and see the original Google mail that was sent attached to the case record.
+In a demo, I usually show my mobile phone's screen using Quicktime or [Reflector](https://www.airsquirrels.com/reflector/features/mac-and-windows) from my laptop. Simply call the Google Voice number from your mobile phone and leave a message, being sure to speak clearly. In a few moments, you should have a new case that contains "New case from *contact*" as the `Subject` and the transcription of your voice mail message in the `Description` field. You can also look at the record's Activities section and see the original Google mail that was sent attached to the case record.
 
 
 ## How to Deploy This Package to Your Org
