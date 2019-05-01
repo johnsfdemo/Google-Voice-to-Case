@@ -35,7 +35,7 @@ Scroll down the page and select the **Do not disturb** option. This will automat
 
 ### Step 5
 
-You are now ready to use the contents of this package in your Process Builder processes and Flow Builder flows. Simply call the `Process Google Voicemail` Apex action and pass in the record ID of the current case. I include a sample Process Builder process called `Sample Google Voice Process` (inactive by default) that includes the action. You may use it, modify it, or simply use it as a reference for your own processes and flows:
+You are now ready to use the contents of this package in your Process Builder processes and Flow Builder flows. Simply call the `Process Google Voicemail` Apex action and pass in the record ID of the current case. I include a sample Process Builder process called `Sample Google Voice Process` (inactive by default) that includes the action. You may use it, modify it, or simply referne it for your own processes and flows:
 
 ![Process Google Voicemail Action](/images/Process_Google_Voicemail.png)
 
